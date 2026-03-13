@@ -8,7 +8,7 @@
   <book>
     <title>Course Name (change me)</title>
 
-    <subtitle>MATH xxx Spring 2026</subtitle>
+    <subtitle>MATH XXX Spring 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
