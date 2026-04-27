@@ -6,9 +6,9 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Course Name (change me)</title>
+    <title> Data Structures</title>
 
-    <subtitle>MATH XXX Spring 2026</subtitle>
+    <subtitle>CSCI 271 Spring 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
@@ -32,7 +32,7 @@
       </introduction>
 
       <xi:include href="./notes/week01.ptx"/>
-      <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./homework/homework-01.ptx"/>
       <!-- etc. -->
 
     </chapter>

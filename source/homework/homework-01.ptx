@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 01</title>
+  <title>Assignment #1                           CSCI 271   Spring 2026</title>
   <introduction>
     <p>
-      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
+      <alert></alert> 50   pts.                                        Due 11:59 pm 02/01/2026
     </p>
   </introduction>
 
@@ -12,10 +12,65 @@
     <exercise>
       <statement>
         <p>
-          This is the first homework exercise.
+          Assignment: Palindrome Checker using Stacks and Queues.
         </p>
       </statement>
     </exercise>
 
   </page>
+
+   <section xml:id="sec-1">
+      <title>Objective:</title>
+      <p>
+        The goal of this assignment is to implement a program that determines whether a given sentence is a palindrome using the properties of stack (Last-In, First-Out - LIFO) and queue (First-In, First-Out - FIFO) data structures. 
+      </p>
+      
+    </section>
+
+    <section xml:id="sec-2">
+      <title>Theory:</title>
+      <p>
+A palindrome is a sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization (e.g., "Madam, in Eden, I'm Adam" or "A man, a plan, a canal, Panama"). 
+By pushing each character of the processed string (lowercase, no punctuation/spaces) into a stack and enqueueing the same characters into a queue, we can leverage their differing access methods. The queue will preserve the original order of characters, while the stack will reverse the order when characters are popped. Comparing the characters from the front of the queue and the top of the stack simultaneously allows us to check for the palindrome property efficiently
+
+      </p>
+      
+    </section>
+
+    <section xml:id="sec-3">
+      <title>Instructions:</title>
+      <p>
+        
+<p>1.	Input: Your program should prompt the user to enter a sentence.
+</p>
+<p>
+2.	Preprocessing: Process the input sentence to remove all spaces and punctuation, and convert all characters to lowercase. This ensures that only the relevant alphabetical characters are used for the palindrome check.
+</p>
+<p>
+3.	Data Structure Population:
+
+<p>&#160; o	Initialize an empty stack and an empty queue.</p>
+<p>&#160; o	Iterate through the processed string and insert each character into both the stack and the queue.
+</p> </p> 
+<p> 4.	Palindrome Check:
+<p>&#160; o	Compare characters by simultaneously popping from the stack and dequeuing from the queue in a loop.
+</p> <p>&#160; o	If at any point a popped character from the stack does not match the dequeued character from the queue, the sentence is not a palindrome, and the comparison loop should stop.
+</p> <p>&#160; o	If the loop completes with all characters matching, the sentence is a palindrome.
+</p>
+</p>
+5.	Output: Display the result to the user, clearly indicating whether the original sentence is a palindrome. 
+
+      </p>
+      
+    </section>
+    <section xml:id="sec-4">
+      <title> General Requirements:</title>
+      <p>
+       
+<p> 1.	(8 pts) Fully document your program  </p>
+<p>2.	(32 pts) Implement all the classes (including Stack, Queue, Linked List if it is linked list based) correctly
+</p><p>3.	(10 pts) Include compiling/testing information
+</p>
+      </p>
+    </section>
 </worksheet>

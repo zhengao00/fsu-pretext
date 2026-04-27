@@ -12,15 +12,15 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>Data Structures (CSCI 100271, Section 001)</term> for [term] 2026.
-      It is a [n] credit course.
+      This is the syllabus for <term>Data Structures (CSCI 271, Section 001)</term> for Spring 2026.
+      It is a 4 credit course.
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
           <title>Instructor</title>
 
           <p>
-            Prof. (Jeff) Gao, HH 418C, <url href="mailto:zgao@framingham.edu.edu">Prof.Gao</url>.
+            Prof. Zhenguang Gao, HH 418C, <url href="mailto:zgao@framingham.edu.edu">Prof.Gao email here</url>.
           </p>
         </li>
 
@@ -28,7 +28,8 @@
           <title>Student Hours</title>
 
           <p>
-            TBD
+        M: 10:20am--12:20 pm     W:  2:30pm--4:20 pm
+
           </p>
         </li>
 
@@ -36,7 +37,7 @@
           <title>Class meets</title>
 
           <p>
-            course times and location.
+            MW 8:30am -- 10:20am
           </p>
         </li>
 
@@ -44,15 +45,22 @@
           <title>Course Description</title>
 
           <p>
-            course description from catalog
-          </p>
-        </li>
+          This is an introduction to fundamental data structures such as lists, stacks queues, trees, heaps, hash tables and graphs.  Corresponding algorithms and program analysis will be discussed. At the end of the course, students should be able to 
+•	understand the purposes and methods of the most commonly occurring data structures 
+•	analyze the data structure needs of particular problems 
+•	compare the efficiency of various implementations and algorithms 
+•	write applications using data structures discussed in the course 
 
+</p>
+  <p>
+    
+  </p>
+</li>
         <li>
           <title>Prerequisite</title>
 
           <p>
-            list of prerequisites
+            CSCI 215 Computer Science II using Java, and MATH 180 Precalculus
           </p>
         </li>
 
@@ -60,8 +68,8 @@
           <title>Textbook and course materials</title>
 
           <p>
-            <pubtitle>textbook name</pubtitle>
-            by textbook author.
+            <pubtitle>Data Structures &amp; Other Objects using Java</pubtitle>
+            by Main, Addison Wesley Publishing.
           </p>
         </li>
       </dl>
@@ -71,8 +79,24 @@
     <paragraphs>
       <title>Course Overview</title>
 
-      <p>
+      <p> Here is the tentative list of topics for the semester
       </p>
+      <p>
+ <pre>
+Review on basic concepts in CS1, CS2 and most common structures, Explain the goals and methods used in data structures.
+ </pre> 
+<pre> Linked-list </pre>
+<pre> Container classes </pre> 
+<pre>	Stacks </pre>
+<pre> Queues </pre>
+<pre>	Recursion </pre>
+<pre> Sorting: binary sort, merge sort, shell sort </pre>
+<pre>	Trees, traversal, and AVL trees </pre>
+<pre> Graphs, graph algorithms</pre>
+
+
+      </p>
+       
     </paragraphs>
   </subsection>
 
@@ -81,6 +105,124 @@
     <title>Assessments and Grades</title>
 
     <p>
+      Grade Policy:
+                               
+<table label="none">
+  <title>Grade Policy, Test, and Final Exam Times</title>
+  <tabular halign="left">
+    <row header="no" bottom="minor" >
+      <cell>Activity </cell>
+      <cell>Points </cell>
+    </row>
+    <row>
+      <cell>Attendance and Participation</cell>
+      <cell> 100</cell>
+          </row>
+    <row>
+      <cell>Tests (03/05, 04/09)</cell>
+      <cell>200 </cell>
+    </row>
+    <row>
+      <cell>Homework, Programming Assignments</cell>
+      <cell>400 </cell>
+          </row>
+    <row>
+      <cell>Final Exam (8:00am, 05/14)</cell>
+      <cell>300</cell>
+      </row>
+    <row>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row> 
+      <cell> Total </cell>
+      <cell> 1000 </cell>
+    </row>
+  </tabular>
+
+</table>
+
     </p>
+  <p>
+  Attendance:
+  <p>
+Attendance is expected and can alter the course grade.  It is the student's responsibility to verify that the professor has been notified of excused absences for any reason, including official university functions. The due date of an assignment will NOT be automatically extended as a result of an excused absence.  If the professor noticed more than 7 times of unexcused absence for any students, he will take that as evidence of lack of interest and a final grade of ‘F’ will be given to that student.
+<table>
+  <title>Attendance Credit Points: (Total 100)</title>
+  <tabular halign="left">
+    <row header="no" bottom="minor" >
+      <cell># of recorded unexcused absence </cell>
+      <cell>Points </cell>
+    </row>
+    <row>
+      <cell>Attendance and Participation</cell>
+      <cell> 100</cell>
+          </row>
+    <row>
+      <cell>0</cell>
+      <cell>100 </cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell>90 </cell>
+          </row>
+    <row>
+      <cell>2</cell>
+      <cell>80</cell>
+      </row>
+    <row>
+      <cell>3</cell>
+      <cell>70</cell>
+    </row>
+    <row> 
+      <cell> 4 </cell>
+      <cell> 60 </cell>
+    </row>
+    <row>
+      <cell>5</cell>
+      <cell>50 </cell>
+    </row>
+    <row>
+      <cell>6</cell>
+      <cell>40</cell>
+    </row>
+    <row>
+      <cell>7</cell>
+      <cell>30</cell>
+    </row>
+    <row>
+      <cell>>=8</cell>
+      <cell>0, also leads to an “F” for the overall letter grade</cell>
+    </row>
+  </tabular>
+
+</table>
+  </p>
+  </p>
   </subsection>
+
+
+<subsection xml:id="subsec-">
+  <title>Miscellaneous</title>
+  <p>
+    There will be no incompletes in this class except for reasons of dire illness near the end of a semester in which all previous work has been completed satisfactorily. 
+You can not redo any assignment, or do extra work after the semester is over to improve your grade, as this arrangement would then by fairness have to be extended to the rest of the class (an impossible situation). 
+I have zero tolerance for any kind of academic misconduct (plagiarism, cheating on exams), and be assured that I will instantly report violations of the department, and the college, if necessary.
+Whenever you submit a piece of academic work and sign your name to it, you are verifying that this work is the result of your own intellectual efforts; it is Plagiarism to submit work solely under your own name in which:
+•	You collaborated with another student in solving the homework problems; 
+•	You copied the solution from a book, web site, or the work of another student; or 
+•	You got significant help in solving the problem, but do not acknowledge this in your solution. 
+In this course, you will do all of your work alone; in other classes, you may work as part of a team. In any case, you must specify precisely the authorship of the content of your submission. In particular, you must always provide proper attribution of authorship by naming all persons, books, or resources that provided intellectual content towards the final result. To fail to provide proper attribution is plagiarism. Plagiarism demeans the seriousness of what we do in class, and does not allow you as a student to obtain a fair grade for the results you worked hard for. 
+
+
+  </p>
+  <p>
+    At Framingham State University, faculty, staff, and students work together to sustain a learning, working, and living community free from hate, discrimination, harassment, and intolerance. We recognize the damaging effects of systemic racism—including policies, structures, and historic practices—on the experience and success of communities of color. Coming from different backgrounds and different levels of privilege, we can all affirm and engage in antiracist work.  
+ 
+Diversity of voices, and of minds, strengthens our ability to solve problems and to ask and answer questions about the world we share. As your instructor, I commit to upholding community values of inclusion, civility, accessibility, and mutual respect. I expect this class to commit to creating a community that affirms and welcomes all persons from diverse backgrounds and experiences, and supports the realization of everyone’s potential. 
+
+
+  </p>
+</subsection>
+
 </section>
